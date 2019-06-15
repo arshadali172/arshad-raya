@@ -66,7 +66,7 @@
 	}
 
 	function toggleText() {
-		var text = !flipped ? 'Tell me more!' : 'See you there!';
+		var text = !flipped ? 'See behind!' : 'Woohoo !!!';
 		button.toggleClass('invert', !flipped).text(text);
 	}
 
